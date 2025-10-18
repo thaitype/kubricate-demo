@@ -56,8 +56,8 @@ npm install
 ### 2. Validate and Apply Secrets
 
 ```bash
-npx kubricate secret validate
-npx kubricate secret apply
+bunx kubricate secret validate
+bunx kubricate secret apply
 ```
 
 This will fetch secrets using the configured connector and apply them using the provider.
@@ -65,13 +65,13 @@ This will fetch secrets using the configured connector and apply them using the 
 ### 3. Generate Kubernetes YAML
 
 ```bash
-npx kubricate generate
+bunx kubricate generate
 ```
 
 ### 4. Deploy to Kubernetes
 
 ```bash
-npx kubricate generate --stdout | kubectl apply -f -
+bunx kubricate generate --stdout | kubectl apply -f -
 ```
 
 ### 5. Restart Your App to Apply Secrets

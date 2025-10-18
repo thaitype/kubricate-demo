@@ -1,4 +1,4 @@
-import { SecretManager } from '@kubricate/core';
+import { SecretManager } from 'kubricate';
 import { OpaqueSecretProvider } from '@kubricate/plugin-kubernetes';
 import { EnvConnector } from '@kubricate/plugin-env';
 import { config } from './shared-config';

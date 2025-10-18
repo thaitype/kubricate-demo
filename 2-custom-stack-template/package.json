@@ -16,15 +16,16 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "kubricate": "^0.19.1",
-    "typescript": "^5.8.3"
+    "kubricate": "^0.20.1",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@kubricate/core": "^0.19.1",
-    "@kubricate/plugin-env": "^0.19.0",
-    "@kubricate/plugin-kubernetes": "^0.19.0",
-    "@kubricate/stacks": "^0.19.1",
-    "@kubricate/toolkit": "^0.6.1",
-    "kubernetes-models": "^4.4.2"
+    "@kubricate/core": "^0.20.1",
+    "@kubricate/kubernetes-models": "^0.1.1",
+    "@kubricate/plugin-env": "^0.20.1",
+    "@kubricate/plugin-kubernetes": "^0.20.1",
+    "@kubricate/stacks": "^0.20.1",
+    "@kubricate/toolkit": "^0.6.2",
+    "kubernetes-models": "^4.5.1"
   }
 }
