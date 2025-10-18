@@ -29,7 +29,7 @@ This repository contains a step-by-step demo of how to build **type-safe, declar
 
 ## 🚀 Requirements
 
-* Node.js (>= 20)
+* bun or Node.js (>= 20)
 * Kubernetes cluster (e.g., AKS)
 * `kubectl` configured to access your cluster
 * Optional: `.env` file for secrets when using `3-secret`
