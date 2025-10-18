@@ -1,6 +1,4 @@
-# 🎤 Type-Safe Infrastructure: Reimagining Kubernetes with Kubricate — Live on AKS
-
-**Global Azure 2025 Demo Repository**
+# Kubricate Demo Repo
 
 This repository contains a step-by-step demo of how to build **type-safe, declarative, and reusable Kubernetes infrastructure** using [Kubricate](https://github.com/thaitype/kubricate), a TypeScript-based infrastructure framework.
 
@@ -68,3 +66,6 @@ All in a **type-safe, centralized contract**.
 
 Built with love by [@mildronize](https://github.com/mildronize) for the Azure Global 2025 community.
 Questions or ideas? Feel free to reach out!
+
+## Old Kubricate Demo Version
+- [Kubricate Demo v0.19 at branch demo-v0.19](https://github.com/thaitype/kubricate-demo/tree/demo-v0.19)
