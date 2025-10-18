@@ -41,7 +41,7 @@ To begin, navigate to one of the examples:
 
 ```bash
 cd 1-basic
-npm install
+bun install
 bunx kubricate generate --stdout | kubectl apply -f -
 ```
 

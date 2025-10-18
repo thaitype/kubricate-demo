@@ -55,7 +55,7 @@ export default { namespace, myApp };
 ### 1. Install dependencies
 
 ```bash
-npm install
+bun install
 ```
 
 ### 2. Generate Kubernetes manifests

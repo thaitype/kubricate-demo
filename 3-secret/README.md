@@ -50,7 +50,7 @@ With `useSecrets`, you can map your declared secrets into the environment or fil
 ### 1. Install dependencies
 
 ```bash
-npm install
+bun install
 ```
 
 ### 2. Validate and Apply Secrets
