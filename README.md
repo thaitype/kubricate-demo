@@ -42,7 +42,7 @@ To begin, navigate to one of the examples:
 ```bash
 cd 1-basic
 npm install
-npx kubricate generate --stdout | kubectl apply -f -
+bunx kubricate generate --stdout | kubectl apply -f -
 ```
 
 ## 🔐 Secure by Design

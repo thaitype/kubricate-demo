@@ -63,7 +63,7 @@ npm install
 This will compile the TypeScript stack definitions into YAML files:
 
 ```bash
-npx kubricate generate
+bunx kubricate generate
 ```
 
 Output is saved to `./dist`
@@ -73,7 +73,7 @@ Output is saved to `./dist`
 Apply the generated manifests directly:
 
 ```bash
-npx kubricate generate --stdout | kubectl apply -f -
+bunx kubricate generate --stdout | kubectl apply -f -
 ```
 
 > 🔐 Make sure `kubectl` is configured for your target cluster and namespace.

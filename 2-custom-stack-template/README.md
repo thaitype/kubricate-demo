@@ -56,7 +56,7 @@ npm install
 ### 2. Generate Kubernetes YAML
 
 ```bash
-npx kubricate generate
+bunx kubricate generate
 ```
 
 Outputs will be saved in the `./output` folder.
@@ -66,7 +66,7 @@ Outputs will be saved in the `./output` folder.
 Pipe directly into your current `kubectl` context:
 
 ```bash
-npx kubricate generate --stdout | kubectl apply -f -
+bunx kubricate generate --stdout | kubectl apply -f -
 ```
 
 > 🔐 Make sure you're connected to the right cluster and namespace.
